@@ -212,6 +212,5 @@ var maxPerChild = childAggregation.Max("max_per_child");
 maxPerChild.Should().NotBeNull(); <2>
 ----
 <1> Do something with the average per child. Here we just assert it's not null
-
 <2> Do something with the max per child. Here we just assert it's not null
 
